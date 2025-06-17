@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Ajouter USD Transac à MetaMask</title>
 </head>
-<body style="font-family:sans-serif;text-align:center;margin-top:50px">
+<body style="font-family:sans-serif; text-align:center; margin-top:50px">
   <h1>Ajouter USDT (USD Transac) à MetaMask</h1>
-  <button id="addToken" style="padding:10px 20px;font-size:16px;cursor:pointer">
+  <button id="addToken" style="padding:10px 20px; font-size:16px; cursor:pointer">
     ➕ Ajouter USDT à MetaMask
   </button>
 
@@ -22,18 +22,17 @@
               symbol: 'USDT',
               decimals: 18,
               image: 'https://raw.githubusercontent.com/TokenH25/usdt-transac-assets/main/blockchains/smartchain/assets/0x055A68464F60e7a843371246A783057Ad7774801/logo.png'
-            },
-          },
+            }
+          }
         });
 
         if (wasAdded) {
-          alert('✅ USDT (USD Transac) ajouté avec succès à MetaMask !');
+          alert("✅ Token ajouté à MetaMask !");
         } else {
-          alert('❌ Opération annulée.');
+          alert("❌ Action annulée par l'utilisateur.");
         }
       } catch (error) {
-        console.error(error);
-        alert('⚠️ Erreur lors de l’ajout du token.');
+        alert("⚠️ Erreur lors de l'ajout du token : " + error.message);
       }
     });
   </script>
