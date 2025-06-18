@@ -1,9 +1,15 @@
 {
   "name": "USD Transac",
   "symbol": "USDT",
+  "type": "BEP20",
   "decimals": 18,
-  "description": "Token BEP-20 éducatif pour simuler un stablecoin USD sur BSC.",
-  "website": "",
-  "explorer": "https://bscscan.com/address/0x055A68464F60e7a843371246A783057Ad7774801",
-  "status": "active"
+  "status": "active",
+  "id": "0x055A68464F60e7a843371246A783057Ad7774801",
+  "website": "https://tokenh25.github.io/usdt-transac-assets/",
+  "description": "USD Transac (USDT) is an educational/test stablecoin simulation on BNB Chain.",
+  "links": {
+    "github": "https://github.com/TokenH25/usdt-transac-assets",
+    "twitter": "https://x.com/TokenH25",
+    "explorer": "https://bscscan.com/token/0x055A68464F60e7a843371246A783057Ad7774801"
+  }
 }
