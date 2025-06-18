@@ -2,11 +2,18 @@
   "name": "USD Transac Token List",
   "logoURI": "https://raw.githubusercontent.com/TokenH25/usdt-transac-assets/main/blockchains/smartchain/assets/0x055A68464F60e7a843371246A783057Ad7774801/logo.png",
   "keywords": ["usdt", "usdtransac", "bep20", "stablecoin", "education"],
-  "timestamp": "2025-06-17T00:00:00+00:00",
+  "timestamp": "2025-06-18T00:00:00+00:00",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
+  },
+  "chainId": 56,
+  "tags": {
+    "education": {
+      "name": "Education",
+      "description": "Educational/test token simulating USD on BNB Chain"
+    }
   },
   "tokens": [
     {
@@ -15,7 +22,8 @@
       "name": "USD Transac",
       "symbol": "USDT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/TokenH25/usdt-transac-assets/main/blockchains/smartchain/assets/0x055A68464F60e7a843371246A783057Ad7774801/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/TokenH25/usdt-transac-assets/main/blockchains/smartchain/assets/0x055A68464F60e7a843371246A783057Ad7774801/logo.png",
+      "tags": ["education"]
     }
   ]
 }
