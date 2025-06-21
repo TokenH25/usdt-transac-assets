@@ -7,9 +7,10 @@
   "id": "0x055A68464F60e7a843371246A783057Ad7774801",
   "website": "https://tokenh25.github.io/usdt-transac-assets/",
   "description": "USD Transac (USDT) is an educational/test stablecoin simulation on BNB Chain.",
+  "logoURI": "https://tokenh25.github.io/usdt-transac-assets/logo.png",
   "links": {
     "github": "https://github.com/TokenH25/usdt-transac-assets",
-    "twitter": "https://x.com/TokenH25",
+    "twitter": "https://twitter.com/TokenH25",
     "explorer": "https://bscscan.com/token/0x055A68464F60e7a843371246A783057Ad7774801"
   }
 }
